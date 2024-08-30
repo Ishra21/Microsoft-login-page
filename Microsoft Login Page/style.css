@@ -1,0 +1,117 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
+
+/* .container{
+    width: 100%;
+    height: 100vh;
+    background-color: chocolate;
+
+
+    display: flex; */
+
+
+    /* alignment proprty */
+
+    /* align-items: center; */
+    /* align-items: start; */
+    /* align-items: end; */
+    /* justify-content: center; */
+    /* justify-content: start; */
+    /* justify-content: end; */
+
+    /* spacing */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    /* direction */
+
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+
+    /* Adjustment */
+
+    /* flex-wrap: wrap; */
+/* flex-wrap: nowrap; */
+
+
+
+
+
+/* } */
+/* .box{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    border: 1px solid black;
+} */
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: rgb(87,200,227);
+    background: radial-gradient(circle, rgba(87,200,227,1) 0%, rgba(240,168,204,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    padding: 40px;
+}
+
+.card h5{
+    font-size: 28px;
+    margin-top: 10px;
+}
+.card input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom:  1px solid black;
+}
+.card span{
+    line-height: 40px;
+}
+
+.card button{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(156, 155, 155);
+    border: none;
+  
+}
+
+.card #spn{
+    margin-left: 80px;
+
+}
+
+#nxt-btn{
+    background-color: rgb(6, 66, 118);
+    color: white;
+}
+.card a{
+    color: rgb(6, 66, 118);
+    text-decoration: none;
+}
+
+
+.card  a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+
+
+/* pesudo selector */
+
